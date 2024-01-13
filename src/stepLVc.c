@@ -7,7 +7,7 @@
 #include <R_ext/Rdynload.h>
 
 // Actual code we want to be able to call from R:
-void stepLV(int *x,double *t0p,double *dtp,double *c)
+void stepLV_c(int *x,double *t0p,double *dtp,double *c)
 {
   double t=*t0p, dt=*dtp, termt=t+dt;
   GetRNGstate();
@@ -40,11 +40,11 @@ static R_NativePrimitiveArgType stepLV_t[] = {
 };
 
 static const R_CMethodDef cMethods[] = {
-   {"stepLV", (DL_FUNC) &stepLV, 4, stepLV_t},
+   {"stepLV_c", (DL_FUNC) &stepLV_c, 4, stepLV_t},
    {NULL, NULL, 0, NULL}
 };
 
-void R_init_stepLVc(DllInfo *info)
+void R_init_smfsb(DllInfo *info)
 {
    R_registerRoutines(info, cMethods, NULL, NULL, NULL);
    R_useDynamicSymbols(info, FALSE);

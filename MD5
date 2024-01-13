@@ -1,6 +1,6 @@
-b0f198dd81b6ce0016f291bb52309be2 *CHANGES
-77abea6192607d8dfce8ca49237bd4a6 *DESCRIPTION
-60786799e7ad8f86620e6956ed1466ab *NAMESPACE
+4d02d63c0df6a0b08c35bee60804078c *CHANGES
+d9aa5cbc973b96516e8e368b0593bcbd *DESCRIPTION
+9742183e910144fc32068cd722a342cb *NAMESPACE
 3ac267c15ce201f88e257097c25fedf6 *R/StepCLE.R
 5c488875d9630b57bec8c2c882fcba2c *R/StepCLE1D.R
 e5e2dac6466ae123adaf44b193716175 *R/StepCLE2D.R
@@ -19,7 +19,7 @@ c6d2ced5298262ca8e4040c807ba3aa4 *R/abcRun.R
 14f4b99dd549a2b110dee732e8e48a9b *R/gillespie.R
 16e5dab293e090d38528c11a65886a2b *R/gillespied.R
 29f251d33c1ce60bfcc58f5a11451b2e *R/imdeath.R
-617e8462e88cda3e62e6f1333d636e27 *R/mcmcSummary.R
+166fa3a8ebfa7e204e15cad5b24214ee *R/mcmcSummary.R
 9a0ab3150752e99094d0c3a96b7ab9cd *R/metrop.R
 8c11292237ebda91b9a27c74f6d75b5e *R/metropolisHastings.R
 15ff9f478038631f3e846ca10a116977 *R/normgibbs.R
@@ -29,11 +29,11 @@ c6d2ced5298262ca8e4040c807ba3aa4 *R/abcRun.R
 03f5b3156375699c2ec395f2897355a4 *R/rdiff.R
 90f70f3b4b4ef96fe1d35496ea3ee111 *R/rfmc.R
 98181a7bce7c785b479c637ab7c2c68f *R/simpleEuler.R
-5adc1ec6d23e364f532ae9f03bc0de8b *R/stepLVc.R
-cd2503c7a185e63ae2e1662027c3fa33 *build/vignette.rds
-e1f500d7709bc5cdc97b51f74f4b3684 *data/LVdata.rda
+6980fd8386ee1043309ef01a59f8fbc6 *R/stepLVc.R
+a61a0007e33fa8e0003d2024b962d27a *build/vignette.rds
+5b427d71020d417b6455969aba568549 *data/LVdata.rda
 2d4f02ffd3ab3614d4c36b4103498732 *data/mytable.txt.gz
-69ac2e0f8694e1b518c315fee8558946 *data/spnModels.rda
+3b0b9da2e84b80c571e510fda8a49f0c *data/spnModels.rda
 5be79f4ae793acef50c3e002978107e0 *demo/00Index
 9cb44879190bfb6ff0b73f88efe4109f *demo/DimerisationKinetics.R
 6ca3e1e01cf481db62518ae9c8594fe6 *demo/ExtrinsicNoise.R
@@ -42,7 +42,7 @@ e1f500d7709bc5cdc97b51f74f4b3684 *data/LVdata.rda
 13d01aa244799abfcbbbe86687ede7c8 *demo/Metropolis.R
 f9bd9c0734aca1f10299d896e9eea748 *demo/PMCMC.R
 8ab600d608f643453dfa133fd79cf0f4 *inst/doc/smfsb.Snw
-bbe0278b48433583aa64707c8652fd20 *inst/doc/smfsb.pdf
+b654fa8b3e6a0ac07bf8b160dda4784a *inst/doc/smfsb.pdf
 695fccfc89b0a233737ed75cc3ecadab *man/LVdata.Rd
 381cb353e2b26110563ce114def24969 *man/StepCLE.Rd
 e609d6e925ec63569a95632ffd87ccc1 *man/StepCLE1D.Rd
@@ -79,8 +79,8 @@ e109ae9133ddefbd739c90052818cdcd *man/simTs.Rd
 1ec728868160b000176fc80fdba6b3b0 *man/simTs1D.Rd
 75f5148ea0429fed8044293316fd9dd6 *man/simTs2D.Rd
 191b0e5f019d957b8456696fdd71a075 *man/simpleEuler.Rd
-cd7c77781c68479b609dad9a3bd01f02 *man/smfsb-package.Rd
-2920e00bb0186e1f829a6d8a55d23929 *man/spnModels.Rd
+2974460703fb129cf6f853478118138a *man/smfsb-package.Rd
+9698671cc9516c01facc279a6e6c8bea *man/spnModels.Rd
 0d749d025e594a88b3c432d4d79cd1a1 *man/stepLVc.Rd
-5d4a3bd73a11b26ee33eb6458e37a931 *src/stepLVc.c
+e40eaa553a3bd4d79cf49683543cbf06 *src/stepLVc.c
 8ab600d608f643453dfa133fd79cf0f4 *vignettes/smfsb.Snw

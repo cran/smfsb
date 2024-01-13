@@ -6,4 +6,5 @@ export(rfmc,rcfmc,imdeath,rdiff,simpleEuler,gillespie,discretise,gillespied,Step
 simTs,simSample,simTimes,StepEulerSPN,StepCLE,StepPTS,StepFRM,StepEuler,stepLVc,StepODE,StepSDE,
 as.timedData,pfMLLik, pfMLLik1, normgibbs, metrop, mcmcSummary, StepGillespie1D, StepGillespie2D, 
 simTs1D, simTs2D, StepCLE1D, StepCLE2D, abcRun, abcSmc, metropolisHastings)
-useDynLib(smfsb, stepLV, .registration = TRUE)
+useDynLib(smfsb, .registration = TRUE)
+

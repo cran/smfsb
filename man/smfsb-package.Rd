@@ -18,9 +18,9 @@ for Systems Biology, published by Chapman & Hall/CRC Press.
 }
 
 \author{
-Maintainer: Darren Wilkinson <darren.wilkinson@ncl.ac.uk>
+Maintainer: Darren Wilkinson <darrenjwilkinson@btinternet.com>
 }
-\references{See \url{http://www.staff.ncl.ac.uk/d.j.wilkinson/smfsb/}
+\references{See \url{https://darrenjw.github.io/work/smfsb/}
   or \url{https://github.com/darrenjw/smfsb}
 for further details.}
 
